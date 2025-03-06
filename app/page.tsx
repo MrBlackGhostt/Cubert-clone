@@ -5,26 +5,30 @@ import FullVideo from "@/components/fullVideo";
 import Third from "@/components/Third";
 import Resource from "@/components/Resource";
 import NewDay from "@/components/NewDay";
+import Philosopy from "@/components/Philosopy";
+import HaveIdea from "@/components/HaveIdea";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-16  bg-green-400 ">
-      <div className="bg-red-300">
+    <div className="flex flex-col gap-16 w-full  ">
+      <div className="">
         <Tophead />
       </div>
-      <div className="w-full">
+      <div>
         <FullVideo />
       </div>
       <div>
         <Third />
       </div>
       <div>
+        <Philosopy />
+      </div>
+      <div>
         <Resource />
       </div>
       <div>
-        <NewDay />
+        <HaveIdea />
       </div>
-      <AnimatedText />
     </div>
   );
 }
